@@ -1,2 +1,2 @@
-# Widtours
-This is a simple WidlifeTour website
+# WildTours
+This is a simple WildlifeTour website
