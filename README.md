@@ -1,2 +1,4 @@
 # WildTours
-This is a simple WildlifeTour website
+This is a simple landing page for WildlifeTour 
+
+# Screenshot
