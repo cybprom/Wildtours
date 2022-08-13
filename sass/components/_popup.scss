@@ -10,7 +10,8 @@
     opacity: 0;
     visibility: hidden;  
     transition: all .3s; 
-
+    
+    
    
 
     &__content {
@@ -28,11 +29,19 @@
         opacity: 0;
         transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
+
+        @include respond(phone) {
+            display: inline-block;
+        }
     }
 
     &__left {
         width:33.333333%;
         display: table-cell;
+
+        @include respond(phone) {
+            display: inline-block;
+        }
     }
 
     &__right {
@@ -40,11 +49,18 @@
         display: table-cell;
         vertical-align: middle;
         padding: 3rem 5rem;
+
+        @include respond(phone) {
+        }
     }
 
     &__img {
         display: block;
-        width: 100%; 
+        width: 100%;
+
+        @include respond(phone) {
+            display: none;
+        }
     }
 
     &__text {
@@ -56,6 +72,10 @@
         column-rule: 1px solid $color-grey-light-2;
 
         hyphens: auto;
+
+        @include respond(phone) {
+            column-gap: 2rem;
+        }
     }
 
     //Open states
