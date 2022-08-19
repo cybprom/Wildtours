@@ -17,6 +17,11 @@
         position: absolute;
         top: 40px;
         left: -30px;
+
+        @include respond(tab-port) { 
+            left: -55px;
+            top: 30px;
+        }
     }
     
     &__logo {

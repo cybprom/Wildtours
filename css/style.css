@@ -70,7 +70,8 @@ body {
   padding: 3rem; }
   @media only screen and (max-width: 56.25em) {
     body {
-      padding: 0; } }
+      padding: 0;
+      width: 100vw; } }
 
 ::selection {
   background-color: #55c57a;
@@ -542,7 +543,8 @@ body {
     transition: all .5s .2s; }
     @media only screen and (max-width: 37.5em) {
       .popup__content {
-        display: inline-block; } }
+        display: inline-block;
+        width: 85vw; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -753,6 +755,10 @@ body {
     position: absolute;
     top: 40px;
     left: -30px; }
+    @media only screen and (max-width: 56.25em) {
+      .header__logo-box {
+        left: -55px;
+        top: 30px; } }
   .header__logo {
     height: 45px; }
   .header__text-box {

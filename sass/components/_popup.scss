@@ -32,6 +32,8 @@
 
         @include respond(phone) {
             display: inline-block;
+            width: 85vw;
+            // text-align: center;
         }
     }
 
