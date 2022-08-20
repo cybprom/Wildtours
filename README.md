@@ -5,4 +5,4 @@ This is a simple landing page for WildlifeTour
 
 
 #  Link to site
-[Live link](https://www.wildtours.netlify.app)
+[Live link](https://wildtours.netlify.app/)
